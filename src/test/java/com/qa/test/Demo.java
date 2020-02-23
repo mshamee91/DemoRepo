@@ -1,11 +1,22 @@
 package com.qa.test;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Demo {
+	@BeforeMethod
+	public void test1() {
+		System.out.println("Test1");
+	}
+
 	@Test
-	public void display()
-	{
+	public void display() {
 		System.out.println("SHAMEER");
+	}
+
+	@AfterMethod
+	public void test2() {
+		System.out.println("Test2");
 	}
 }
