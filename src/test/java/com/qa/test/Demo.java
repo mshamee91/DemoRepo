@@ -12,6 +12,7 @@ public class Demo {
 
 	@Test
 	public void display() {
+		System.out.println("TESTER");
 		System.out.println("SHAMEER");
 	}
 
