@@ -15,6 +15,7 @@ public class Demo {
 		System.out.println("TESTER");
 		System.out.println("SHAMEER");
 		System.out.println("GIT");
+		System.out.println("DOT");
 	}
 
 	@AfterMethod
